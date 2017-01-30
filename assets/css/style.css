@@ -1,11 +1,3 @@
-.heading {
-	width: 100%;
-	height: 80px;
-	background-color: white;
-	border-width: 10px;
-	border-color: #cccccc;
-}
-
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;
@@ -17,23 +9,43 @@ body {
 	width: 960px;
 }
 
+.name, .title {
+	font-family: "Georgia", Times, serif;
+
+}
+
+.heading {
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border-width: 10px;
+	border-color: #cccccc;
+}
+
+.headings {
+	padding-top: 20px;
+}
 .name {
 	width: 250px;
-	height: 80px;
+	height: 55px;
 	color: white;
 	font-size: 24px;
 	text-align: center;
 	background-color: gray;
-	z-index: 1;
+	padding-top: 25px;
+	
 }
 
 a {
 	text-decoration: none;
 }
 
-.links {
-	float:right;
+.links, .divides {
+	float: right;
 	padding-right: 20px;
+	position: relative;
+	top: -20px;
+	font-color: #4aaaa5;
 }
 
 
@@ -45,47 +57,32 @@ a {
 }
 
 .sidebar {
-	float: right;
 	position: absolute;
 	width: 260px;
 	height: 150px;
+	left: 850px;
+	bottom: 492px;
 	background-color: white;
 }
 
-.main_section {
+.main_section, #portfolioTable {
 	width: 650px;
-	height: 400px;
+	height: 450px;
 	background-color: white;
 	margin-top: 20px;
-	position: relative;
-
 }
-/*
-.bio {
-	clear: left;
-}
-
-.myImage {
-	float: left;
-}
-*/
-
 
 .bio, .thumbnail, hr, .headings {
 	margin: 20px 20px 20px 20px;
-}
-
-.name, .title {
-	font-family: "Georgia", Times, serif;
-
 }
 
 hr {
 	background-color: #4aaaa5; height: 2px; border: 0;
 }
 
-.myImage {
-	position: absolute;
+#myImage {
+	position: relative;
+	left: 20px;
 }
 
 .links, .headings {
@@ -93,32 +90,55 @@ hr {
 	font-size: 20px;
 }
 
-.box1, .box2, .box3, .box4, .box5{
-	height: 200px;
-	width: 200px;
+#box1, #box2, #box3, #box4, #box5 {
+	height: 125px;
+	width: 125px;
+	
 
 }
 
-.box1 {
+#box1 {
 	background-image: url("../images/box1.jpg");
-	background-size: cover;
+	
 }
-.box2 {
+#box2 {
 	background-image: url("../images/box2.jpg");
 	background-size: cover;
 }
-.box3 {
+#box3 {
 	background-image: url("../images/box3.jpg");
 	background-size: cover;
 }
-.box4 {
+#box4 {
 	background-image: url("../images/box4.jpg");
 	background-size: cover;
 }
-.box5 {
+#box5 {
 	background-image: url("../images/box5.jpg");
 	background-size: cover;
 }
+
+#portfolioTable {
+	
+    flex-flow: row wrap;
+    color: white;
+
+}
+
+#form {
+	margin-left: 20px;
+}
+
+button {
+	background-color: #4aaaa5;
+	border: none;
+	margin-top: 4px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+
+}
+
 
 .footer {
 	background: #666666;
@@ -127,44 +147,3 @@ hr {
 	padding: 10px;
 	margin: 5px 0 0 0;
 }
-
-
-
-/*
-body {
-	background-image: url("../images/background.png");
-}
-
-/*
-.box1, .box2, .box3, .box4, .box5{
-	height: 200px;
-	width: 200px;
-
-}
-
-.box1 {
-	background-image: url("../images/box1.jpg");
-	background-size: cover;
-}
-.box2 {
-	background-image: url("../images/box2.jpg");
-	background-size: cover;
-}
-.box3 {
-	background-image: url("../images/box3.jpg");
-	background-size: cover;
-}
-.box4 {
-	background-image: url("../images/box4.jpg");
-	background-size: cover;
-}
-.box5 {
-	background-image: url("../images/box5.jpg");
-	background-size: cover;
-}
-
-.sidebar {
-
-}
-
-*/
