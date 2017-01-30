@@ -25,6 +25,7 @@ body {
 .headings {
 	padding-top: 20px;
 }
+
 .name {
 	width: 250px;
 	height: 55px;
@@ -33,7 +34,6 @@ body {
 	text-align: center;
 	background-color: gray;
 	padding-top: 25px;
-	
 }
 
 a {
@@ -48,7 +48,9 @@ a {
 	font-color: #4aaaa5;
 }
 
-
+.links {
+	color: #4aaaa5;
+}
 
 .divides {
 	float:right;
