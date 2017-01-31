@@ -42,7 +42,7 @@ a {
 	font-size: 16px;
 }
 
-.links, .divides {
+.links, .dividers {
 	float: right;
 	padding-right: 20px;
 	position: relative;
@@ -52,24 +52,37 @@ a {
 
 }
 
+#myImage {
+	float:left;
+	position:relative;
+}
+
+.textWrap {
+	float:left;
+	margin:10px;
+	position: relative;
+}
+
+
 .inputs {
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
-.divides {
+/*
+.dividers {
 	float:right;
 	color: #4aaaa5;
 	padding-right: 20px;
 	bottom: 12px;
 }
-
+*/
 .sidebar {
 	position: absolute;
 	width: 260px;
 	height: 150px;
 	left: 850px;
-	bottom: 492px;
+	bottom: 454px;
 	background-color: white;
 }
 
@@ -89,8 +102,7 @@ hr {
 }
 
 #myImage {
-	position: relative;
-	left: 20px;
+	padding-left: 10px;
 }
 
 .headings {
@@ -111,7 +123,7 @@ a:link {
 
 #box1 {
 	background-image: url("../images/box1.jpg");
-	
+	background-size: cover;
 }
 #box2 {
 	background-image: url("../images/box2.jpg");
@@ -131,9 +143,8 @@ a:link {
 }
 
 #portfolioTable {
-	
-    flex-flow: row wrap;
-    color: white;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
@@ -158,4 +169,8 @@ button {
 	vertical-align: bottom;
 	padding: 10px;
 	margin: 5px 0 0 0;
+}
+
+h2.headings {
+	margin-top: 20px;
 }
