@@ -22,7 +22,7 @@ body {
 	border-color: #cccccc;
 }
 
-.headings {
+h1.headings {
 	padding-top: 20px;
 }
 
@@ -38,24 +38,30 @@ body {
 
 a {
 	text-decoration: none;
+	color: #4aaaa5;
+	font-size: 16px;
 }
 
 .links, .divides {
 	float: right;
 	padding-right: 20px;
 	position: relative;
-	top: -20px;
-	font-color: #4aaaa5;
+	top: -50px;
+	color: #4aaaa5;
+	font-size: 14px;
+
 }
 
-.links {
-	color: #4aaaa5;
+.inputs {
+	margin-top: 6px;
+	margin-bottom: 6px;
 }
 
 .divides {
 	float:right;
 	color: #4aaaa5;
 	padding-right: 20px;
+	bottom: 12px;
 }
 
 .sidebar {
@@ -87,7 +93,7 @@ hr {
 	left: 20px;
 }
 
-.links, .headings {
+.headings {
 	color: #4aaaa5;
 	font-size: 20px;
 }
@@ -97,6 +103,10 @@ hr {
 	width: 125px;
 	
 
+}
+
+a:link {
+	color: #4aaaa5;
 }
 
 #box1 {
@@ -129,16 +139,16 @@ hr {
 
 #form {
 	margin-left: 20px;
+
 }
 
 button {
 	background-color: #4aaaa5;
 	border: none;
-	margin-top: 4px;
+	margin-top: 6px;
 	text-align: center;
 	color: white;
-	font-size: 16px;
-
+	font-size: 18px;
 }
 
 
