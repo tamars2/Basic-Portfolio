@@ -3,15 +3,14 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background-image: url("../images/background.png?");
-	
 }
+
 #total {
 	width: 960px;
 }
 
 .name, .title {
 	font-family: "Georgia", Times, serif;
-
 }
 
 .heading {
@@ -42,6 +41,10 @@ a {
 	font-size: 16px;
 }
 
+a:hover {
+	color: black;
+}
+
 .links, .dividers {
 	float: right;
 	padding-right: 20px;
@@ -49,7 +52,6 @@ a {
 	top: -50px;
 	color: #4aaaa5;
 	font-size: 14px;
-
 }
 
 #myImage {
@@ -63,20 +65,11 @@ a {
 	position: relative;
 }
 
-
 .inputs {
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
-/*
-.dividers {
-	float:right;
-	color: #4aaaa5;
-	padding-right: 20px;
-	bottom: 12px;
-}
-*/
 .sidebar {
 	position: absolute;
 	width: 260px;
@@ -135,6 +128,16 @@ a:link {
 	color: #4aaaa5;
 }
 
+img {
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.bio {
+	color: #777777;
+}
+
 #box1 {
 	background-image: url("../images/box1.jpg");
 	background-size: cover;
@@ -153,29 +156,15 @@ a:link {
 }
 #box5 {
 	background-image: url("../images/box5.jpg");
-	background-size: cover;
-	
+	background-size: cover;	
 }
-
-
-/*
-#portfolioTable {
-	display: flex;
-	flex-wrap: wrap;
-
-
-}
-*/
 
 #portfolioTable {
 	justify-content: center;
-
 }
-
 
 #form {
 	margin-left: 20px;
-
 }
 
 button {
@@ -187,24 +176,18 @@ button {
 	font-size: 18px;
 }
 
-/*
-.footer {
-	background: #666666;
-	text-align: center;
-	position: fixed;
-	bottom: 0px;
-}
-*/
-
 .footer {
 	background: #666666;
 	text-align: center;
 	vertical-align: bottom;
 	padding: 10px;
 	margin: 5px 0 0 0;
-
 }
 
 h2.headings {
 	margin-top: 20px;
+}
+
+img:hover {
+	margin-bottom: -4px;
 }
