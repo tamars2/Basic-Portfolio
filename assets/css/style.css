@@ -112,22 +112,23 @@ hr {
 }
 
 #box1, #box2, #box3, #box4, #box5 {
-	width: 125px;
+	position: relative;
+	width: 175px;
 	height: 125px;
-	margin: 10px;
+	float: left;
+	margin: 20px 0px 0px 100px;
 }
 
 .label {
 	color: white;
 	background-color: gray;
 	text-align: center;
-	height: 10%;
-	padding: 18px;
+	height: 8%;
+	padding: 10px;
+	padding-bottom: 20px
 	font-size: 15px;
 	position: relative;
-	bottom: -99px;
-	
-
+	bottom: -90px;
 }
 
 a:link {
@@ -167,9 +168,11 @@ a:link {
 */
 
 #portfolioTable {
-
+	justify-content: center;
 
 }
+
+
 #form {
 	margin-left: 20px;
 
