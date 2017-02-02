@@ -145,6 +145,7 @@ img {
 #box2 {
 	background-image: url("../images/box2.jpg");
 	background-size: cover;
+	bottom: 18px;
 }
 #box3 {
 	background-image: url("../images/box3.jpg");
@@ -157,6 +158,8 @@ img {
 #box5 {
 	background-image: url("../images/box5.jpg");
 	background-size: cover;	
+	margin-left:238px;
+	top: 10px;
 }
 
 #portfolioTable {
