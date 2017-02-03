@@ -9,8 +9,8 @@ body {
 	width: 960px;
 }
 
-.name, .title {
-	font-family: "Georgia", Times, serif;
+.name, .title, .heading, .headings, .label {
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 .heading {
@@ -54,10 +54,12 @@ a:hover {
 	font-size: 14px;
 }
 
+/*
 #myImage {
 	float:left;
 	position:relative;
 }
+*/
 
 .textWrap {
 	float:left;
@@ -71,11 +73,11 @@ a:hover {
 }
 
 .sidebar {
-	position: absolute;
+	position: relative;
+	float: right;
 	width: 260px;
 	height: 150px;
-	left: 850px;
-	bottom: 454px;
+	bottom: 550px;
 	background-color: white;
 }
 
@@ -109,7 +111,7 @@ hr {
 	width: 175px;
 	height: 125px;
 	float: left;
-	margin: 20px 0px 0px 100px;
+	margin: 10px 0px 0px 100px;
 }
 
 .label {
@@ -158,8 +160,7 @@ img {
 #box5 {
 	background-image: url("../images/box5.jpg");
 	background-size: cover;	
-	margin-left:238px;
-	top: 10px;
+	top: 15px;
 }
 
 #portfolioTable {
@@ -191,6 +192,6 @@ h2.headings {
 	margin-top: 20px;
 }
 
-img:hover {
+img.shift:hover {
 	margin-bottom: -4px;
 }
